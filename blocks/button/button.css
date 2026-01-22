@@ -1,0 +1,22 @@
+.button .btn-modern {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  padding: 14px 28px;
+  font-weight: 600;
+  border-radius: 12px;
+  color: #fff;
+  background: linear-gradient(135deg, #4f46e5, #6366f1);
+  box-shadow: 0 10px 25px rgba(79, 70, 229, 0.35);
+  transition: all 0.3s ease;
+}
+
+.button .btn-modern:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 30px rgba(79, 70, 229, 0.45);
+}
+
+.button .btn-modern:focus-visible {
+  outline: 3px solid rgba(99, 102, 241, 0.6);
+}
